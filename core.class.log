@@ -1,0 +1,975 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06D1D541900CF2DF14F',
+    participant: undefined
+  },
+  messageTimestamp: 1709848015,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bdb811ab-d594-465e-a43e-93191d8c3210',
+  keyword: 'key_02aa1eed-4f04-46ee-89bc-773b83bbbdbc',
+  answer: 'Te damos la bienvenida a nuestro canal de WhatsApp, deseas continuar: \n' +
+    '\n' +
+    ' *1.* SI \n' +
+    ' *2.* NO  ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4548666e6472f123cd1cc67e960ca370'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04839E33B2FD0F81456',
+    participant: undefined
+  },
+  messageTimestamp: 1709848017,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d934941d-adc3-44b8-97d3-1e18af39cf2e',
+  keyword: 'ans_bdb811ab-d594-465e-a43e-93191d8c3210',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9d03eb442416200076594ccaea1132ea'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_633a67b8-8053-4673-b829-0c9a4e22be3f',
+  keyword: 'ans_d934941d-adc3-44b8-97d3-1e18af39cf2e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ecb9c8379cdb64c3d1f25d2859666fab'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0AF2C33743B46413B0E',
+    participant: undefined
+  },
+  messageTimestamp: 1709848022,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_983d4a73-dc91-4bc5-8a5e-db01f379c1bf',
+  keyword: 'ans_633a67b8-8053-4673-b829-0c9a4e22be3f',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f715574f1a6b9a1fd4fc134df660ea33'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB000E6DADBFEBDFADC08',
+    participant: undefined
+  },
+  messageTimestamp: 1709848027,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1144145809',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1144145809',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_859a61b7-94fc-499f-bf37-1b0e7ac6dc78',
+  keyword: 'ans_983d4a73-dc91-4bc5-8a5e-db01f379c1bf',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6204d04fab40d849b704581d481b8957'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06E4CE3E50E89CEA830',
+    participant: undefined
+  },
+  messageTimestamp: 1709848033,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A9A9C6BD2719A48CC9',
+    participant: undefined
+  },
+  messageTimestamp: 1709848035,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c7949632-d078-4b10-972d-0323e20fcad9',
+  keyword: 'ans_5cb12903-00f0-43e8-bf27-cc9c197f7093',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e27e2a577daa1da312e6862e0a0536e1'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB050F84E705B9550C9F6',
+    participant: undefined
+  },
+  messageTimestamp: 1709848038,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_135c97a0-7e7b-4424-b852-1d71c9801fc1',
+  keyword: 'ans_c7949632-d078-4b10-972d-0323e20fcad9',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4e276da1c3204a1b78132aecb860745d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB048062B9A2BF4238791',
+    participant: undefined
+  },
+  messageTimestamp: 1709848041,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ddcc7b89-2fe9-425a-be6c-82bdad7961dc',
+  keyword: 'ans_135c97a0-7e7b-4424-b852-1d71c9801fc1',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5cba5dc52415a094e031270150e266b7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0913D39EAE345053532',
+    participant: undefined
+  },
+  messageTimestamp: 1709848043,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_267e22b3-b374-4326-90b4-107df88e616e',
+  keyword: 'ans_ddcc7b89-2fe9-425a-be6c-82bdad7961dc',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7355df7311e2b680f9600fdf29c97ff6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03DF5B744B588C756A8',
+    participant: undefined
+  },
+  messageTimestamp: 1709848045,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a3d23c50-4052-414c-90fa-5f0197c411f2',
+  keyword: 'ans_267e22b3-b374-4326-90b4-107df88e616e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b9778a9c1614e0d614a42babe2bfb502'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A5374256170C75B09A',
+    participant: undefined
+  },
+  messageTimestamp: 1709848047,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '0',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a98a064b-0393-4189-ab62-cf4ce0f4baf4',
+  keyword: 'ans_a3d23c50-4052-414c-90fa-5f0197c411f2',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7486323408e21d315349bb766ea1e556'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8330844a-231f-4f08-a068-467c4ed61438',
+  keyword: 'ans_a98a064b-0393-4189-ab62-cf4ce0f4baf4',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1e4de144d35cca2fecf6f7fd3a7e0121'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05C09833B5FA73DFBE0',
+    participant: undefined
+  },
+  messageTimestamp: 1709848062,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E01ADCC75A42CC38DB',
+    participant: undefined
+  },
+  messageTimestamp: 1709848073,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07EBDCF61A85FFCAABF',
+    participant: undefined
+  },
+  messageTimestamp: 1709848080,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_01c456f6-125b-4c12-9964-6a4a34bf41df',
+  keyword: 'ans_8eab6eb2-8cd6-4cbb-9aeb-d53dff7018a7',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86364e734aebe99de4d3fa01d4fa91be'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0DF076BCE1023DE0545',
+    participant: undefined
+  },
+  messageTimestamp: 1709848083,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'JOSE',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'JOSE',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a58f1872-1c5f-40df-85d2-233940b021ff',
+  keyword: 'ans_01c456f6-125b-4c12-9964-6a4a34bf41df',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '956baa3734310cd783ab9a91f8e21742'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02EA6BF628E512B8D40',
+    participant: undefined
+  },
+  messageTimestamp: 1709848087,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'NO PUEDO IR',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'NO PUEDO IR',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6524241a-c61e-4efc-b9da-18aab4ad394a',
+  keyword: 'ans_a58f1872-1c5f-40df-85d2-233940b021ff',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dd6680153ef13b820fe23073440216cf'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0EAA9BF6223F7FB6BBA',
+    participant: undefined
+  },
+  messageTimestamp: 1709848098,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BC2F3B0F7055EC9A68',
+    participant: undefined
+  },
+  messageTimestamp: 1709848100,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c7949632-d078-4b10-972d-0323e20fcad9',
+  keyword: 'ans_5cb12903-00f0-43e8-bf27-cc9c197f7093',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e27e2a577daa1da312e6862e0a0536e1'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04EA5253CA7A13B1518',
+    participant: undefined
+  },
+  messageTimestamp: 1709848104,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_135c97a0-7e7b-4424-b852-1d71c9801fc1',
+  keyword: 'ans_c7949632-d078-4b10-972d-0323e20fcad9',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4e276da1c3204a1b78132aecb860745d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C5BBCF8851EDF9B92C',
+    participant: undefined
+  },
+  messageTimestamp: 1709848109,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ddcc7b89-2fe9-425a-be6c-82bdad7961dc',
+  keyword: 'ans_135c97a0-7e7b-4424-b852-1d71c9801fc1',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5cba5dc52415a094e031270150e266b7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01D59C4BD56F43B5824',
+    participant: undefined
+  },
+  messageTimestamp: 1709848112,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_267e22b3-b374-4326-90b4-107df88e616e',
+  keyword: 'ans_ddcc7b89-2fe9-425a-be6c-82bdad7961dc',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7355df7311e2b680f9600fdf29c97ff6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04E1CF90B347D6B4118',
+    participant: undefined
+  },
+  messageTimestamp: 1709848115,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a3d23c50-4052-414c-90fa-5f0197c411f2',
+  keyword: 'ans_267e22b3-b374-4326-90b4-107df88e616e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b9778a9c1614e0d614a42babe2bfb502'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB073C8F2843FC698F6DB',
+    participant: undefined
+  },
+  messageTimestamp: 1709848118,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '0',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '573004269767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a98a064b-0393-4189-ab62-cf4ce0f4baf4',
+  keyword: 'ans_a3d23c50-4052-414c-90fa-5f0197c411f2',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7486323408e21d315349bb766ea1e556'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8330844a-231f-4f08-a068-467c4ed61438',
+  keyword: 'ans_a98a064b-0393-4189-ab62-cf4ce0f4baf4',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1e4de144d35cca2fecf6f7fd3a7e0121'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573004269767@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0429B54A91B5344E71D',
+    participant: undefined
+  },
+  messageTimestamp: 1709848131,
+  pushName: 'Jose Rodríguez',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573004269767'
+}
