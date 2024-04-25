@@ -64,6 +64,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         return fallBack('Por favor escribir una opción valida')
       }
       if (ctx.body == '2'){ 
+        stopInactividad(ctx); 
         return endFlow('Gracias por utilizar nuestro canal de WhatsApp. ¡Te esperamos para una próxima!')
 
        }
@@ -141,6 +142,7 @@ const flujoUsuariosRegistrados = addKeyword('#_USUARIOS_REGISTRADOS_#')
     async(ctx, {fallBack,endFlow,state,gotoFlow}) => {
       
        if (ctx.body == 'salir') {
+        stopInactividad(ctx); 
         return endFlow('Gracias por utilizar nuestro canal de WhatsApp. ¡Te esperamos para una próxima!')
       
       }else if ( !['1','2','3','4'].includes(ctx.body)) { 
@@ -316,6 +318,7 @@ const flowAgenda = addKeyword('#_AGENDAR_CITA_MEDICA#')
     await state.update({doctor: myState.esp});
     await flowDynamic('Cómo desea buscar disponibilidad para su cita \n\n 1️⃣ Fecha más cercana \n 2️⃣ Fecha específica')
   }else if (ctx.body == 2) {
+    stopInactividad(ctx); 
     return endFlow('Comunicate con el CallCenter para cambiar de especialista, \n\ Gracias por utilizar nuestro canal de WhatsApp. ¡Te esperamos para una próxima!')
   }
   else{
@@ -446,6 +449,7 @@ const flujoUsuariosNORegistrados = addKeyword('#_USUARIOS_NO_REGISTRADOS_#')
         return fallBack('Por favor escribir una opción valida')
       }
       else if (ctx.body == 2) {
+        stopInactividad(ctx); 
         return endFlow('Gracias por utilizar nuestro canal de WhatsApp. ¡Te esperamos para una próxima!')
       }
     }
@@ -825,13 +829,14 @@ const flowPreguntas = addKeyword('#_PREGUNTAS_FRECUENTES#')
       break;
 
   }
-     
+      
 })
 
 const flujoFinal = addKeyword(EVENTS.ACTION).addAnswer('Se canceló por inactividad, te esperamos para una proxima')
 
 const flowSalir = addKeyword('salir')
 .addAction(null, async (ctx, {endFlow}) => {
+     stopInactividad(ctx); 
       return endFlow('Gracias por utilizar nuestro canal de WhatsApp. ¡Te esperamos para una próxima!')
     }
 )
